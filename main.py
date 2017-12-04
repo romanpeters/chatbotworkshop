@@ -15,7 +15,7 @@ def on_msg(msg):
         msg["args"] = text[1:]
 
     if msg["command"] in enabled.keys():
-        commands[msg["command"]](msg, bot)
+        enabled[msg["command"]](msg, bot)
 
 
 
