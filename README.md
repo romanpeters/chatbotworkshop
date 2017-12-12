@@ -5,7 +5,7 @@
 ##### Telegram
 We gebruiken de chat-service Telegram, voornamelijk omdat WhatsApp geen bots toestaat.
 De API key voor je bot krijg je van een andere Telegram bot; the Botfather.
-Stuur een berichtje naar @TheBotFather op Telegram. Met `/newbot` kun je bij hem de naam van je bot kiezen en krijg je je API key.
+Stuur een berichtje naar @BotFather op Telegram. Met `/newbot` kun je bij hem de naam van je bot kiezen en krijg je je API key.
 
 
 ##### Python 3.6
