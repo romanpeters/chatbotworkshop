@@ -15,6 +15,9 @@ def on_msg(msg):
 
         msg["command"] = text[0]  # bewaar het eerste woord uit de lijst in msg["command"]
 
+        if '@' in msg["command"]: # filter het @NAAMVANBOT teken uit het command als het aanwezig is
+            msg['command'] = msg["command"].split('@')[0]
+
         if len(text) > 1:  # als het bericht uit meerdere woorden bestaat
             msg["args"] = text[1:]  # dan bewaar je de rest in msg["args"]
 
